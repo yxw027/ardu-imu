@@ -1,4 +1,4 @@
-#summary Index
+#summary Index Page
 
 Home
 Features
