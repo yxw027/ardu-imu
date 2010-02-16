@@ -1,4 +1,5 @@
 #summary Features
+#sidebar Index
 
 -Flat Design.
 -Low cost.
