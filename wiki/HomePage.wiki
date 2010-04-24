@@ -1,4 +1,4 @@
-http://ardupilot.googlecode.com/svn/images/KT-ArduIMU-20-2.jpg
+http://ardupilot.googlecode.com/svn/images/dp66935_15d6kftdhm_b.jpg
 
 *Introduction*
 
