@@ -1,5 +1,6 @@
 = ArduIMU =
 
+  * [HomePage Home Page]
   * [IntroductionPage Introduction]
   * [WhatNeed What you need to complete ArduIMU+]
   * [StartedPage Getting Started]
