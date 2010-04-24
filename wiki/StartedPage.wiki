@@ -1,1 +1,8 @@
 = Getting Started =
+
+Here's what you should do to prepare your ArduIMU+ for use:
+
+  # Assemble the board
+  # Load the code
+  # Install the demo software
+  # Customize the configuration
