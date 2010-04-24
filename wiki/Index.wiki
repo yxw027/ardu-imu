@@ -1,6 +1,5 @@
-
 = ArduIMU =
 
-  * [HomePage Home]
+  * [IntroductionPage Introduction]
   * [FeaturesPage Features]
   * [StartedPage Getting Started]
