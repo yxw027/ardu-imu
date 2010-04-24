@@ -1,5 +1,4 @@
 = ArduIMU =
 
   * [IntroductionPage Introduction]
-  * [FeaturesPage Features]
   * [StartedPage Getting Started]
