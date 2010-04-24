@@ -1,5 +1,6 @@
-#summary Index Page
 
-Home
-Features
-Getting Started
+= ArduIMU =
+
+  * [HomePage Home]
+  * [FeaturesPage Features]
+  * [StartedPage Getting Started]
