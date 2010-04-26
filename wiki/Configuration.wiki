@@ -1,0 +1,32 @@
+== User-modifiable options ==
+
+ 
+
+There is no configuration file for the firmware.  Use modifiable options are set with several #define statements in the main file (ArduIMU_DCM_V12.pde).  There are also #define statements which are not intended to be user modifiable options, so only change the parameters shown below.
+
+ 
+
+#define Gyro_Gain 2.5 //2.5Gyro gain
+
+#define Kp_ROLLPITCH 0.015 //.015 Pitch&Roll Proportional Gain
+
+#define Ki_ROLLPITCH 0.000010 //0.000005Pitch&Roll Integrator Gain
+
+#define Kp_YAW .5 //.5Yaw Porportional Gain 
+
+#define Ki_YAW 0.0005 //0.0005Yaw Integrator Gain
+
+
+#define OMEGAA 1 //If value = 1 will print the corrected data, 0 will print uncorrected data of the gyros (with drift)
+
+#define PRINT_DCM 0 //Will print the whole direction cosine matrix
+
+#define PRINT_ANALOGS 1 // If 1 will print the analog raw data
+
+#define PRINT_EULER 1 //Will print the Euler angles Roll, Pitch and Yaw
+
+#define PRINT_GPS 0
+
+ 
+
+Note that although the 5 gain terms can be changed you should not change these unless you understand what effect the change will cause.  The values shown above have been shown to work reasonably well.
