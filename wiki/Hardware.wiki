@@ -7,6 +7,6 @@
 PARTS LIST (and functional description)
 
 || *Qty* || *Part Number* || *Manufacturer* || *Functional Description* ||
-|| 1 || ADXL335 || Analog Devices || Three-axis accelerometer ||
+|| 1 || [http://api.ning.com/files/vuLVL7FAtL5UFAb8JcPW*Y2072K8FbqRFcjGsQm-YrsxNL*NLqdModEjPLbOTqa0rB-JwP7YG3splBtAxt5CEq7Z37tlnEM4/adxl335.pdf ADXL335] || Analog Devices || Three-axis accelerometer ||
 || 1 || LPR530AL || ST Microelectronics || Two-axis gyro ||
 || 1 || LY530ALH || ST Microelectronics || One-axis gyro ||
