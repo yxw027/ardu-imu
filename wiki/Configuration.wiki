@@ -2,7 +2,7 @@
 
  
 
-There is no configuration file for the firmware.  Use modifiable options are set with several #define statements in the main file (ArduIMU_DCM_V12.pde).  There are also #define statements which are not intended to be user modifiable options, so only change the parameters shown below.
+There is no configuration file for the firmware.  Use modifiable options are set with several #define statements in the main file (ArduIMU.pde).  There are also #define statements which are not intended to be user modifiable options, so only change the parameters shown below.
 
  
 
