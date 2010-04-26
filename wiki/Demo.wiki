@@ -9,8 +9,9 @@ Now download the desktop utility from the Google Code repository [http://ardu-im
 Run ArduIMU.exe in the ArduIMU Demo folder. Follow the directions below.
 
 
-Desktop utility software
+=== Desktop utility software ===
 
+http://ardupilot.googlecode.com/svn/images/ddjmqgw3_79n5c4bf3b_b.png
 
 When you run the Desktop Utility you need to tell it to find the right serial port and connect to the IMU.
 
