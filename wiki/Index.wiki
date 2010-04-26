@@ -4,7 +4,7 @@
   * [IntroductionPage Introduction]
   * [WhatNeed What you need to complete ArduIMU+]
   * [StartedPage Getting Started]
-   * [Hardware Completing the hardware]
+   * [Assembly Completing the hardware]
    * [Code Loading the code]
    * [Demo Loading the demo program]
   * [Configuration User-configurable options]
