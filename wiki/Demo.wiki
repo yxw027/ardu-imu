@@ -1,0 +1,21 @@
+== Running the Demo Program ==
+
+We've provided a demo program so you can see how ArduIMU+ works. Here's how to run it:
+
+First, connect a GPS to the ArduIMU; currently only the uBlox 5 (with the DIY Drones adapter) and the EM406 are supported. If you don't connect a GPS module, the IMU will still work but Yaw data will be unreliable since there is no way to correct for drift in the Yaw gyro. Also, please note that the GPS will probably only get lock when you're outside with a clear view of the sky. If you don't have lock (blue LED on the ArduIMU+ board light up, it will still work but the yaw data will be wrong]
+
+Now download the desktop utility from the Google Code repository [http://ardu-imu.googlecode.com/files/ArduIMU_pack_v15.zip here]. If you don't already have them, you'll also need the LabView runtime engine and serial drivers. Download the runtime engine [http://ftp.ni.com/support/softlib/labview/labview_runtime/8.6/Windows/lvrte86min.exe here] and the drivers [http://joule.ni.com/nidu/cds/view/p/id/1071/lang/en here].
+
+Run ArduIMU.exe in the ArduIMU Demo folder. Follow the directions below.
+
+
+Desktop utility software
+
+
+When you run the Desktop Utility you need to tell it to find the right serial port and connect to the IMU.
+
+
+Select the port in the window shown above. If you're not sure what serial port your FTDI is connected on, you can find out in your Windows Device Manager, as shown below:
+
+
+It may take a few seconds for the software to recognize the serial port and for the data to start flowing. But once it does, your main window and graphic display of the rotating box should be working. When you're done, press the little stop icon on the serial window to stop reading data, so you can close the window.
