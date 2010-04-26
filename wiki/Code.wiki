@@ -2,6 +2,6 @@
 
 The board comes with the firmware pre-loaded, so you don't have to do anything. If, however, you want to upgrade to the latest firmware, do the following:
 
-First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
+  # First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
-Then you need to download Arduino if you don't already have it and use it to load the code on to the board with your FTDI cable. Just follow the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, replacing the !ArduPilot mentions with ArduIMU.
+  # Then you need to download Arduino if you don't already have it and use it to load the code on to the board with your FTDI cable. Just follow the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, replacing the !ArduPilot mentions with ArduIMU.
