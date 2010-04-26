@@ -4,3 +4,4 @@
   * [IntroductionPage Introduction]
   * [WhatNeed What you need to complete ArduIMU+]
   * [StartedPage Getting Started]
+  * [Theory Theory of Operation]
