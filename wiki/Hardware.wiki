@@ -1,5 +1,7 @@
 == Hardware ==
 
+http://ardupilot.googlecode.com/svn/images/scAANcHLVUz3aWJhw4SfIlCdN.png
+
 [http://api.ning.com/files/Odb*eaGUT14vgHAaXa1n08FSPLWp*1lS4Hv*e9TfK0OiS*wVxxOSej3zahMBd52*aqDdfWE30dlIcRiOWo-3EqvXctRtijkL/6DOFArduIMUv20sch.pdf%22%3E6DOF-ArduIMU-v20-sch.pdf Schematic]
 
 [http://api.ning.com/files/PP1zb-rJcnJUXCbF-ReWHkyjhn1mcv5LC48HzMNUcsgyudcVSsT6vBhYjaf3c2hFef2WQlTylmT7AZ0tpTBJl9Wx8m8k4vn9/6DOFArduIMUv20brd.pdf%22%3E6DOF-ArduIMU-v20-brd.pdf Board Diagram]
