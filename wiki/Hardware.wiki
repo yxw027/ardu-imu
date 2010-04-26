@@ -8,5 +8,5 @@ PARTS LIST (and functional description)
 
 || *Qty* || *Part Number* || *Manufacturer* || *Functional Description* ||
 || 1 || [http://api.ning.com/files/vuLVL7FAtL5UFAb8JcPW*Y2072K8FbqRFcjGsQm-YrsxNL*NLqdModEjPLbOTqa0rB-JwP7YG3splBtAxt5CEq7Z37tlnEM4/adxl335.pdf ADXL335] || Analog Devices || Three-axis accelerometer ||
-|| 1 || LPR530AL || ST Microelectronics || Two-axis gyro ||
-|| 1 || LY530ALH || ST Microelectronics || One-axis gyro ||
+|| 1 || [http://api.ning.com/files/PP1zb-rJcnJxWPnI1bg1aFLzvBQ0pxMxos8uAyHCT0Xstr-eeAI5P-mzFAib4pJR*c1fDbwIoIrLB2ih0le8b4jWOtyYcYuN/lpr530al.pdf LPR530AL] || ST Microelectronics || Two-axis gyro ||
+|| 1 || [http://api.ning.com/files/btvkW9HA84tfowJHxvQcBmYJzWkOKWz8zWKm2Hg-fox*WYxPRqT6N12xEWhdckGi*12CrhBziVs1zw-iZgNcXwmA*h0g-5ki/LY530ALH.pdf LY530ALH] || ST Microelectronics || One-axis gyro ||
