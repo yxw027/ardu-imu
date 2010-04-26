@@ -1,0 +1,9 @@
+= LED displays = 
+
+
+ArduIMU Indicator LEDs:
+
+  * Green LED = Power On
+  * Yellow LED =
+  * Blue LED = GPS lock
+  * Red LED = Saturated Sensors
