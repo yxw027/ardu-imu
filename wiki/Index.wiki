@@ -4,5 +4,6 @@
   * [IntroductionPage Introduction]
   * [WhatNeed What you need to complete ArduIMU+]
   * [StartedPage Getting Started]
+  * [Configuration User-configurable options]
   * [Theory Theory of Operation]
   * [LEDs LED Displays]
