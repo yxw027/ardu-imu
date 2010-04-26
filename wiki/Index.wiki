@@ -5,7 +5,7 @@
   * [WhatNeed What you need to complete ArduIMU+]
   * [StartedPage Getting Started]
    * [Assembly Completing the hardware]
-   * [Code Loading the code]
+   * [Code (Optional) Loading the code]
    * [Demo Loading the demo program]
   * [Configuration User-configurable options]
   * [Theory Theory of Operation]
