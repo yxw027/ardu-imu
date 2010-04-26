@@ -7,3 +7,4 @@
   * [Configuration User-configurable options]
   * [Theory Theory of Operation]
   * [LEDs LED Displays]
+  * [Troubleshooting Troubleshooting guide]
