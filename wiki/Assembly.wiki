@@ -2,4 +2,4 @@ http://ardupilot.googlecode.com/svn/images/dp66935_14gkckpmfk_b.jpg
 
 Just solder on the six-pin connector as shown above.
 
-When mounting in a vehicle, it should be flat and level when the airframe is in a flying attitude. The long side of the board should be parallel to the direction of travel and the GPS connector should be at the front.
+When mounting in an aircraft, the IMU should be flat and level when the airframe is in a flying attitude. The long side of the board should be parallel to the direction of travel and the GPS connector should be at the front.
