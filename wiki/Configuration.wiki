@@ -5,7 +5,7 @@
 There is no configuration file for the firmware.  Use modifiable options are set with several #define statements in the main file (ArduIMU.pde).  There are also #define statements which are not intended to be user modifiable options, so only change the parameters shown below.
 
 {{{
-// *** NOTE!   Hardware version - Can be used for v1 (daughterboards) or v2 (flat)
+//Hardware version - Can be used for v1 (daughterboards) or v2 (flat)
 #define BOARD_VERSION 2 // 1 For V1 and 2 for V2
 
 // Ublox gps is recommended!
@@ -45,4 +45,12 @@ There is no configuration file for the firmware.  Use modifiable options are set
 }}}
  
 
-Note that although the 5 gain terms can be changed you should not change these unless you understand what effect the change will cause.  The values shown above have been shown to work reasonably well.
+There are also adjustable gains for the XY and Z directions, but you probably will not want to change them unless you understand what effect the change will cause.  The values shown below have been shown to work reasonably well.
+
+{{{
+// LPR530 & LY530 Sensitivity (from datasheet) => 3.33mV/º/s, 3.22mV/ADC step => 1.03
+// Tested values : 0.96,0.96,0.94
+#define Gyro_Gain_X 0.92 //X axis Gyro gain
+#define Gyro_Gain_Y 0.92 //Y axis Gyro gain
+#define Gyro_Gain_Z 0.94 //Z axis Gyro gain
+}}}
