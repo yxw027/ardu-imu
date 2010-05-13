@@ -3,4 +3,16 @@
 The board comes with the firmware pre-loaded, so you don't have to do anything. If, however, you want to upgrade to the latest firmware, do the following:
 
   # First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
+  # Make any configuration changes needed. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
+
+{{{
+#define PRINT_ANALOGS 1 //Will print the analog raw data
+#define PRINT_EULER 1   //Will print the Euler angles Roll, Pitch and Yaw
+#define PRINT_GPS 1     //Will print GPS data
+
+#define PRINT_BINARY 0   //Will print binary message and suppress ASCII messages (above)
+}}}
+
+
+
   # Then you need to download Arduino if you don't already have it and use it to load the code on to the board with your FTDI cable. Just follow the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, replacing the !ArduPilot mentions with ArduIMU.
