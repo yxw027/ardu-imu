@@ -14,7 +14,7 @@ The board comes with the firmware pre-loaded, so you don't have to do anything. 
 #define PRINT_BINARY 0   //Will print binary message and suppress ASCII messages (above)
 }}}
 
-If you want to use ArduIMU with ArduPilot, set the following configuration option as shown:
+If you want to use ArduIMU with !ArduPilot, set the following configuration option as shown:
 
 {{{
 #define PRINT_BINARY 1   //Will print binary message and suppress ASCII messages (above)
