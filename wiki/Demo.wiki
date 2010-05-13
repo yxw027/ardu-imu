@@ -2,7 +2,7 @@
 
 We've provided two different demo programs so you can see how ArduIMU+ works. 
 
-The easiest to use is the Windows test utility, developed by HappyKillmore 
+The easiest to use is the Windows test utility, developed by !HappyKillmore 
 
 http://ardupilot.googlecode.com/svn/images/arduimu.png
 
