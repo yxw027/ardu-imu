@@ -1,10 +1,12 @@
 == Loading the code ==
 
-The board comes with the firmware pre-loaded, so you don't have to do anything. If, however, you want to upgrade to the latest firmware, do the following:
+The board comes with the firmware pre-loaded, so you don't have to do anything. If, however, you want to upgrade to the latest firmware or change configuration options, do the following:
 
 1) First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
-2) Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
+2) Then you need to [http://arduino.cc/en/Main/Software download Arduino] if you don't already have it and install it.
+
+3) Open Arduino and load the ArduIMU code from your ArduIMU code folder by open the "arduimu.pde" file, which will open all the tabs. Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
 
 {{{
 #define PRINT_ANALOGS 1 //Will print the analog raw data
@@ -20,4 +22,4 @@ If you want to use ArduIMU with !ArduPilot, set the following configuration opti
 #define PRINT_BINARY 1   //Will print binary message and suppress ASCII messages (above)
 }}}
 
-3) Then you need to download Arduino if you don't already have it and use it to load the code on to the board with your FTDI cable. Just follow the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, replacing the !ArduPilot mentions with ArduIMU.
+4) Then connect the FTDI cable and use it to load the code on to the board. Just follow the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, replacing the !ArduPilot mentions with ArduIMU.
