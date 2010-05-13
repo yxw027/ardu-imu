@@ -10,12 +10,12 @@ Download it from [http://www.happykillmore.com/Software/ArduIMU/Setup/Setup.exe 
 
 To use it, first, connect a GPS to the ArduIMU; currently only the uBlox 5 (with the DIY Drones adapter) is supported. If you don't connect a GPS module, the IMU will still work but Yaw data will be unreliable since there is no way to correct for drift in the Yaw gyro. Also, please note that the GPS will probably only get lock when you're outside with a clear view of the sky. If you don't have lock (blue LED on the ArduIMU+ board lights up), it will still work but the yaw data will be wrong.
 
+== LabVIEW demo program ==
+
 If you prefer the earlier LabVIEW demo software (shown below) you can find it [http://code.google.com/p/ardu-imu/downloads/detail?name=ArduIMU%20utilities.zip&can=2&q= here].If you don't already have them, you'll also need the !LabView runtime engine and serial drivers. Download the runtime engine [http://ftp.ni.com/support/softlib/labview/labview_runtime/8.6/Windows/lvrte86min.exe here] and the drivers [http://joule.ni.com/nidu/cds/view/p/id/1071/lang/en here].
 
 Run ArduIMU.exe in the ArduIMU Demo folder. Follow the directions below.
 
-
-=== Desktop utility software ===
 
 http://ardupilot.googlecode.com/svn/images/ddjmqgw3_79n5c4bf3b_b.png
 
