@@ -1,10 +1,16 @@
 == Running the Demo Program ==
 
-We've provided a demo program so you can see how ArduIMU+ works. Here's how to run it:
+We've provided two different demo programs so you can see how ArduIMU+ works. 
 
-First, connect a GPS to the ArduIMU; currently only the uBlox 5 (with the DIY Drones adapter) and the EM406 are supported. If you don't connect a GPS module, the IMU will still work but Yaw data will be unreliable since there is no way to correct for drift in the Yaw gyro. Also, please note that the GPS will probably only get lock when you're outside with a clear view of the sky. If you don't have lock (blue LED on the ArduIMU+ board light up, it will still work but the yaw data will be wrong]
+The easiest to use is the Windows test utility, developed by HappyKillmore 
 
-Now download the desktop utility from the Google Code repository [http://ardu-imu.googlecode.com/files/ArduIMU_pack_v15.zip here]. If you don't already have them, you'll also need the !LabView runtime engine and serial drivers. Download the runtime engine [http://ftp.ni.com/support/softlib/labview/labview_runtime/8.6/Windows/lvrte86min.exe here] and the drivers [http://joule.ni.com/nidu/cds/view/p/id/1071/lang/en here].
+http://ardupilot.googlecode.com/svn/images/arduimu.png
+
+Download it from [http://www.happykillmore.com/Software/ArduIMU/Setup/Setup.exe here] and install it. Additional instructions are [http://diydrones.com/profiles/blogs/arduimu-v2-test-application here].
+
+To use it, first, connect a GPS to the ArduIMU; currently only the uBlox 5 (with the DIY Drones adapter) is supported. If you don't connect a GPS module, the IMU will still work but Yaw data will be unreliable since there is no way to correct for drift in the Yaw gyro. Also, please note that the GPS will probably only get lock when you're outside with a clear view of the sky. If you don't have lock (blue LED on the ArduIMU+ board lights up), it will still work but the yaw data will be wrong.
+
+If you prefer the earlier LabVIEW demo software (shown below) you can find it [http://code.google.com/p/ardu-imu/downloads/detail?name=ArduIMU%20utilities.zip&can=2&q= here].If you don't already have them, you'll also need the !LabView runtime engine and serial drivers. Download the runtime engine [http://ftp.ni.com/support/softlib/labview/labview_runtime/8.6/Windows/lvrte86min.exe here] and the drivers [http://joule.ni.com/nidu/cds/view/p/id/1071/lang/en here].
 
 Run ArduIMU.exe in the ArduIMU Demo folder. Follow the directions below.
 
