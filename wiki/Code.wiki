@@ -4,7 +4,7 @@ The board comes with the firmware pre-loaded, so you don't have to do anything. 
 
 1) First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
-2) Make any configuration changes needed. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
+2) Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
 
 {{{
 #define PRINT_ANALOGS 1 //Will print the analog raw data
