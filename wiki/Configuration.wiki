@@ -70,6 +70,9 @@ there is a problem."
 
 In short, leave it at 0 when you're bench testing or unless you've got it attached to !ArduPilot via the D6/D8 pin. 
 
+
+== Other settings ==
+
 There are also adjustable gains for the XY and Z directions, but you probably will not want to change them unless you understand what effect the change will cause.  The values shown below have been shown to work reasonably well.
 
 {{{
