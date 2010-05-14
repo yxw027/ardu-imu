@@ -44,6 +44,31 @@ There is no configuration file for the firmware.  Use modifiable options are set
 
 }}}
  
+These are all pretty self-explanatory, except for AIR_START. Here is the explanation of the author, Doug Weibel:
+
+"Airstart is only there to save you if for some reason the AP restarts in the
+air.  This could happen due to a power glitch or due to toggling the mode
+quickly.
+
+If the AP restarts in the air it is important that it not take a lot of time
+doing the things it normally does when starting on the ground - i.e.
+calibrating everything.  When we do a ground start we get the offsets for
+all the analog sensors, set the home location, etc.  We then store this
+stuff in EEPROM.  When an airstart occurs we just grab this stuff back from
+EEPROM and start operating immediately.
+
+There is no real reason a user would want to intentionally perform an
+airstart on the ground other than debugging.
+
+The biggest source of confusion I have seen is with the IMU.  If users set
+ENABLE_AIRSTART then the IMU will ALWAYS air start unless it gets a signal
+from the AP to ground start.  This will often result in the IMU doing funky
+stuff, because it will be using calibration data from EEPROM that may not be
+appropriate.  So if a user is just looking at the IMU on the bench and they
+have it doing air start instead of ground start then they will often think
+there is a problem."
+
+In short, leave it at 0 when you're bench testing or unless you've got it attached to !ArduPilot via the D6/D8 pin. 
 
 There are also adjustable gains for the XY and Z directions, but you probably will not want to change them unless you understand what effect the change will cause.  The values shown below have been shown to work reasonably well.
 
