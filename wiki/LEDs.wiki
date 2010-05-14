@@ -5,6 +5,6 @@ When AIRSTART = 0, the red, blue and yellow LEDs will flash while the IMU is cal
 ArduIMU Indicator LEDs (after startup):
 
   * Green LED = Power On
-  * Yellow LED = On in AIRSTART mode; off if not
+  * Yellow LED = On in AIRSTART mode; Off if not
   * Blue LED = GPS lock
   * Red LED = Saturated Sensors
