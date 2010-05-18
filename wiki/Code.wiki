@@ -1,6 +1,6 @@
 == Loading the code ==
 
-The board comes with the firmware pre-loaded, so you don't have to do anything. If, however, you want to upgrade to the latest firmware or change configuration options, do the following:
+ArduIMU+ comes with some basic test firmware loaded at the factory, but to get full functionality you should load the latest AHRS firmware. Here's how:
 
 *1)* First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
