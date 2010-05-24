@@ -35,7 +35,7 @@ There is no configuration file for the firmware.  Use modifiable options are set
 // *** NOTE!   Performance reporting is only supported for Ublox.  Set to 0 for others
 #define PERFORMANCE_REPORTING 1  //Will include performance reports in the binary output ~ 1/2 min
 
-/* Support for optional magnetometer (1 enabled, 0 dissabled) */
+/* Support for optional magnetometer (1 enabled, 0 disabled) */
 #define USE_MAGNETOMETER 0 // use 1 if you want to make yaw gyro drift corrections using the optional magnetometer                   
 
 /* Support for optional barometer (1 enabled, 0 dissabled) */
