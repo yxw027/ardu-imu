@@ -3,6 +3,6 @@
 Here's what you should do to prepare your ArduIMU+ for use:
 
   # [http://code.google.com/p/ardu-imu/wiki/Assembly Assemble the board]
-  # [http://code.google.com/p/ardu-imu/wiki/Code (Optional) Load the code]
+  # [http://code.google.com/p/ardu-imu/wiki/Code Load the code]
   # [http://code.google.com/p/ardu-imu/wiki/Demo Install the demo software]
-  # [http://code.google.com/p/ardu-imu/wiki/Configuration (Optional) Customize the configuration]
+  # [http://code.google.com/p/ardu-imu/wiki/Configuration Customize the configuration]
