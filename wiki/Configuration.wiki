@@ -9,7 +9,7 @@ There is no configuration file for the firmware.  Use modifiable options are set
 #define BOARD_VERSION 2 // 1 For V1 and 2 for V2
 
 // Ublox gps is recommended!
-#define GPS_PROTOCOL 1    // 1 - Ublox,  2 - EM406,  3 - NMEA    We have only tested with Ublox
+#define GPS_PROTOCOL 4    // 1 - NMEA,  2 - EM406,  3 - Ublox, 4 -- MediaTek  
 
 // Enable Air Start uses Remove Before Fly flag - connection to pin 6 on ArduPilot 
 #define ENABLE_AIR_START 0  //  1 if using airstart/groundstart signaling, 0 if not
@@ -25,8 +25,8 @@ There is no configuration file for the firmware.  Use modifiable options are set
 #define OUTPUTMODE 1
 
 #define PRINT_DCM 0     //Will print the whole direction cosine matrix
-#define PRINT_ANALOGS 1 //Will print the analog raw data
-#define PRINT_EULER 1   //Will print the Euler angles Roll, Pitch and Yaw
+#define PRINT_ANALOGS 0 //Will print the analog raw data
+#define PRINT_EULER 0   //Will print the Euler angles Roll, Pitch and Yaw
 #define PRINT_GPS 1     //Will print GPS data
 
 // *** NOTE!   To use ArduIMU with ArduPilot you must select binary output messages (change to 1 here)
@@ -38,7 +38,7 @@ There is no configuration file for the firmware.  Use modifiable options are set
 /* Support for optional magnetometer (1 enabled, 0 disabled) */
 #define USE_MAGNETOMETER 0 // use 1 if you want to make yaw gyro drift corrections using the optional magnetometer                   
 
-/* Support for optional barometer (1 enabled, 0 dissabled) */
+/* Support for optional barometer (1 enabled, 0 disabled) */
 #define USE_BAROMETER 0 	// use 1 if you want to get altitude using the optional absolute pressure sensor                  
 #define ALT_MIX	50			// For binary messages: GPS or barometric altitude.  0 to 100 = % of barometric.  For example 75 gives 25% GPS alt and 75% baro
 }}}
