@@ -4,7 +4,7 @@ ArduIMU+ comes with some basic test firmware loaded at the factory, but to get f
 
 *1)* First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
-*2)* Then you need to [http://arduino.cc/en/Main/Software download Arduino] if you don't already have it and install it.
+*2)* Then you need to [http://arduino.cc/en/Main/Software download Arduino] if you don't already have it and install it. The instructions for loading !ArduIMU code are essentialy the same as for !ArduPilot, so follow them [http://code.google.com/p/ardupilot/wiki/LoadingPage here] and then come back to this page.
 
 *3)* Open Arduino and load the ArduIMU code from your ArduIMU code folder by open the "arduimu.pde" file, which will open all the tabs. Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
 
