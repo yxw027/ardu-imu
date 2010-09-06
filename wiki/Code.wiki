@@ -22,4 +22,4 @@ If you want to use ArduIMU with !ArduPilot, set the following configuration opti
 #define PRINT_BINARY 1   //Will print binary message and suppress ASCII messages (above)
 }}}
 
-*4)* Then connect the FTDI cable to connector pins you soldered on the ArduIMU (check on the bottom of the board where it shows which orientation to plug the FTDI cable in--black is on one side) and use it to load the code on to the board. Again, the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot, are essentially the same, so refer to them if you're having trouble.
+*4)* Then connect the FTDI cable to connector pins you soldered on the ArduIMU (check on the bottom of the board where it shows which orientation to plug the FTDI cable in--black is on one side) and use it to load the code on to the board. Again, the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot are essentially the same, so refer to them if you're having trouble.
