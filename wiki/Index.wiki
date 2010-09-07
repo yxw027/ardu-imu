@@ -7,7 +7,7 @@
    * [Assembly Completing the hardware]
    * [Code Loading the code]
    * [Demo Loading the demo program]
-   * [ArduPilot If you're using ArduIMU with !ArduPilot]
+   * [ArduPilot Using ArduIMU with ArduPilot]
   * [Configuration User-configurable options]
   * [Theory Theory of Operation]
   * [LEDs LED Displays]
