@@ -6,23 +6,27 @@ ArduIMU+ comes with some basic test firmware loaded at the factory, but to get f
 
 *2)* Then you need to [http://arduino.cc/en/Main/Software download Arduino] if you don't already have it and install it. The instructions for loading ArduIMU code are essentially the same as for !ArduPilot, so follow them [http://code.google.com/p/ardupilot/wiki/LoadingPage here] (especially the part about setting the "Set RTS on close" box and choosing the right board in the Arduino IDE) and then come back to this page.
 
-*3)* Now download the [http://code.google.com/p/ardu-imu/downloads/list latest ArduIMU software]. It will be named ArduIMU(version number).zip. *Unzip this main folder to your desktop.* Inside the main folder there should be two folders: "arduimu" and "libraries". Drag them to the Arduino Sketchbook folder you defined in the previous step. 
+*3)* You must also define the folder Arduino will use for its "sketches" (Arduino-talk for the set of files that compose a program) and libraries
 
-*Note: these are the same libraries as used in !ArduPilotMega and !ArduCopter. So if you've already loaded them, you don't have to copy the libraries folder again for !ArduIMU.* 
-
-My example shown here (yours should be the same, minus my name!):
+Create a folder someplace where you can find it, perhaps in your Documents folder or even on your desktop. (If you've been using Arduino, you probably have this set up somewhere already). Launch the Arduino IDE and open the *Preferences* dialog.  Set the sketchbook location to the {{{Sketchbook}}} folder you created or are using. Here's where I have mine:
 
 http://ardupilot-mega.googlecode.com/svn/ArduPilotMegaImages/sketchfile.png
 
-And here's where I put the libraries and APM code folder (highlighted). 
+Once you've changed that directory, you must close Arduino and restart it for it to be recognized.
+
+*4)* Now download the [http://code.google.com/p/ardu-imu/downloads/list latest ArduIMU software]. It will be named ArduIMU(version number).zip. *Unzip this main folder to your desktop.* Inside the main folder there should be two folders: "arduimu" and "libraries". Drag them to the Arduino Sketchbook folder you defined in the previous step. 
+
+*Note: these are the same libraries as used in !ArduPilotMega and !ArduCopter. So if you've already loaded them, you don't have to copy the libraries folder again for !ArduIMU.* 
+
+Here's where I put the libraries and APM code folder (highlighted). Note that it is *exactly* the same folder as I defined in the Arduino configuration menu in the step above. 
 
 http://ardupilot-mega.googlecode.com/svn/ArduPilotMegaImages/arduimufolder.png
 
-We recommend you use exactly this file configuration. If you modify it, Arduino may not be able to find the libraries and you'll get compile errors.
+We recommend you use this same file configuration. If you modify it, Arduino may not be able to find the libraries and you'll get compile errors.
 
-*Important note: DO NOT drag the whole ArduIMU(version number) folder into your sketchfile directory. If you do, the code will not compile.* Instead, just drag the two individual folders within it--!ArduPilotMega and libraries--in the sketchfile folder as shown above. Once you've placed them in the sketchfile folder, you can delete the ArduIMU(version) folder on your desktop.
+*Important note: DO NOT drag the whole ArduIMU(version number) folder into your sketchfile directory. If you do, the code will not compile.* Instead, just drag the two individual folders within it--"arduimu" and "libraries"--in the sketchfile folder as shown above. Once you've placed them in the sketchfile folder, you can delete the ArduIMU(version) folder on your desktop.
 
-*4)* Open Arduino and load the ArduIMU code from your ArduIMU code folder by open the "arduimu.pde" file, which will open all the tabs. Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
+*4)* Open Arduino and load the ArduIMU code from your "arduimu" folder by open the "arduimu.pde" file, which will open all the tabs. Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
 
 {{{
 #define PRINT_ANALOGS 1 //Will print the analog raw data
