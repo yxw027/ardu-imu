@@ -8,7 +8,7 @@ ArduIMU+ comes with some basic test firmware loaded at the factory, but to get f
 
 *3)* You must also define the folder Arduino will use for its "sketches" (Arduino-talk for the set of files that compose a program) and libraries
 
-Create a folder someplace where you can find it, perhaps in your Documents folder or even on your desktop. (If you've been using Arduino, you probably have this set up somewhere already). Launch the Arduino IDE and open the *Preferences* dialog.  Set the sketchbook location to the {{{Sketchbook}}} folder you created or are using. Here's where I have mine:
+Create a folder someplace where you can find it, perhaps in your Documents folder or even on your desktop. (If you've been using Arduino, you probably have this set up somewhere already). Launch the Arduino IDE and open the *Preferences* dialog.  Set the sketchbook location to the folder you created or are using. Here's where I have mine:
 
 http://ardupilot-mega.googlecode.com/svn/ArduPilotMegaImages/sketchfile.png
 
