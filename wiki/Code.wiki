@@ -16,7 +16,7 @@ Once you've changed that directory, you must close Arduino and restart it for it
 
 *4)* Now download the [http://code.google.com/p/ardu-imu/downloads/list latest ArduIMU software]. It will be named ArduIMU(version number).zip. *Unzip this main folder to your desktop.* Inside the main folder there should be two folders: "arduimu" and "libraries". Drag them to the Arduino Sketchbook folder you defined in the previous step. 
 
-*Note: these are the same libraries as used in !ArduPilotMega and !ArduCopter. So if you've already loaded them, you don't have to copy the libraries folder again for !ArduIMU.* 
+*Note: these are the same libraries as used in !ArduPilotMega and !ArduCopter. So if you've already loaded them, you don't have to copy the libraries folder again for ArduIMU.* 
 
 Here's where I put the libraries and APM code folder (highlighted). Note that it is *exactly* the same folder as I defined in the Arduino configuration menu in the step above. 
 
