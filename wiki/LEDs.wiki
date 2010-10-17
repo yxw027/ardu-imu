@@ -6,7 +6,6 @@ ArduIMU Indicator LEDs (after startup):
 
   * Green LED = Power On
   * Yellow LED = Indicates that the speed filter is supressing yaw drift correction. You should see it on if you are not in motion above the set threshold speed.
-  * Blue LED = GPS lock
   * Red LED = Saturated Sensors
   * Blue LED = GPS, as follows:
    * Blue light off: GPS is not connected, is not sending messages, the wrong baud rate or protocol has been selected.
