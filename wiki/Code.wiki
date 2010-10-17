@@ -24,7 +24,7 @@ http://ardupilot-mega.googlecode.com/svn/ArduPilotMegaImages/arduimufolder.png
 
 We recommend you use this same file configuration. If you modify it, Arduino may not be able to find the libraries and you'll get compile errors.
 
-*Important note: DO NOT drag the whole ArduIMU(version number) folder into your sketchfile directory. If you do, the code will not compile.* Instead, just drag the two individual folders within it--"arduimu" and "libraries"--in the sketchfile folder as shown above. Once you've placed them in the sketchfile folder, you can delete the ArduIMU(version) folder on your desktop.
+*Important note: DO NOT drag the whole ArduIMU(version number) folder into your sketchfile directory. If you do, the code will not compile.* Instead, just drag the two individual folders within it--"arduimu" and "libraries"--into the sketchfile folder as shown above. Once you've placed them in the sketchfile folder, you can delete the ArduIMU(version) folder on your desktop.
 
 *4)* Open Arduino and load the ArduIMU code from your "arduimu" folder by open the "arduimu.pde" file, which will open all the tabs. Make any configuration changes needed in the first tab of the code. If you just want to try out the IMU with the desktop demo programs, make sure the following configuration options are set as shown:
 
