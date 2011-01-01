@@ -1,6 +1,6 @@
 == Running the Demo Program ==
 
-We've provided two different demo programs so you can see how ArduIMU+ works. 
+We've provided two different demo programs so you can see how ArduIMU+ works. Note that these work with version [http://code.google.com/p/ardu-imu/downloads/detail?name=arduimu.zip&can=2&q= 1.7] of the ArduIMU code. Version 1.8 and above require GPS lock to give meaningful results.
 
 The easiest to use is the Windows test utility, developed by !HappyKillmore 
 
