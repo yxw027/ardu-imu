@@ -36,6 +36,12 @@ We recommend you use this same file configuration. If you modify it, Arduino may
 #define PRINT_BINARY 0   //Will print binary message and suppress ASCII messages (above)
 }}}
 
+You should also select a GPS module. The uBlox is the default and is recommended, but if you want to use the [http://store.diydrones.com/MediaTek_MT3329_GPS_10Hz_Adapter_Basic_p/mt3329-02.htm MediaTek module] sold by the DIY Drones store, please note that it comes with a later firmware than is supported by ArduIMU and you must downgrade the firmware to 1.4 as explained in [http://code.google.com/p/ardupilot/wiki/MediaTek this tutorial].
+
+{{{
+#define GPS_PROTOCOL 3    // 1 - NMEA,  2 - EM406,  3 - Ublox, 4 -- MediaTek  
+}}}
+
 If you want to use ArduIMU with !ArduPilot, set the following configuration option as shown:
 
 {{{
