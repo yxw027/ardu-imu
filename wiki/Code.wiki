@@ -49,3 +49,5 @@ If you want to use ArduIMU with !ArduPilot, set the following configuration opti
 }}}
 
 *4)* Then connect the FTDI cable to connector pins you soldered on the ArduIMU (check on the bottom of the board where it shows which orientation to plug the FTDI cable in--black is on one side) and use it to load the code on to the board. Again, the [http://code.google.com/p/ardupilot/wiki/LoadingPage instructions] for !ArduPilot are essentially the same, so refer to them if you're having trouble.
+
+*If you are having problems uploading the code (you get a bunch of error messages in red) follow ALL of the debugging tips [http://diydrones.com/profiles/blogs/arduino-debugging-tips here].*
