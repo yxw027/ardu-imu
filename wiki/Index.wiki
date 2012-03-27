@@ -8,6 +8,7 @@
    * [Code Loading the code]
    * [Demo Loading the demo program]
    * [ArduPilot Using ArduIMU with ArduPilot]
+  * [Output ArduIMU Output Format]
   * [Configuration User-configurable options]
   * [Theory Theory of Operation]
   * [LEDs LED Displays]
