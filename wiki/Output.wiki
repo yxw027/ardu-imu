@@ -23,10 +23,16 @@ The variables in the output are determined by configuration settings. Depending 
  # Course over ground:
  # Speed over ground:
  # GPS Fix: A binary indicator of a valid gps fix
- # Satellite Count: The number of satellites used to calculate this position
+ # Satellite Count: The number of GPS satellites used to calculate this position
  # Time of week: Time of week is related to GPS time formats. If this is important to your system, I suggest you read external resources on this confusing topic.
 
 = Binary Output =
+
+There are partial examples of parsing binary data on forum posts, but no official documentation.
+
+= Output Rate =
+
+Experimentation has shown that ascii serial data is pushed at about 8 Hz, though some fields (such as gps) are updated at a different rate (4 Hz) based on the availability of new data.
 
 === Thanks ===
 Examples of output taken from a post by Scotty of DIYDrones.
