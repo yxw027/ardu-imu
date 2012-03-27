@@ -1,26 +1,25 @@
-#summary One-sentence summary of this page.
+= Output Overview =
+*Please be aware that this page is extremely new, and its accuracy is still being verified.*
 
-= Introduction =
-
-The ArduIMU outputs messages in different formats depending on its configuration. The two main options are either binary or Ascii. You can pick between these formats in the user configuration settings [Configuration see here].
+The ArduIMU outputs serial data in different formats depending on its configuration. The two main options are either binary or Ascii. You can pick between these formats and a variety of other options in the user configuration settings ([Configuration see here]).
 
 
 = Ascii Output =
 
-Typical Ascii output looks like this:
+Typical Ascii output with a GPS unit looks like this:
 
 {{{
 !!!VER:1.8.1,RLL:1.12,PCH:-0.07,YAW:34.03,IMUH:253,LAT:499247361,LON:-1193955623, ALT:3525,COG:0,SOG:0,FIX:1,SAT:9,TOW:21230400***
 }}} 
 
-The variables in order are:
- # Roll: Measured in degrees
- # Pitch: Measured in degrees
- # Yaw: Measured in degrees
+The variables in the output are determined by configuration settings. Depending on what flags are set some of these fields may not appear or there will be more fields. The variables in this example are :
+ # Roll: Measured in degrees with positive and increasing as the right wing drops
+ # Pitch: Measured in degrees with positive and increasing as the nose rises
+ # Yaw: Measured in degrees with positive and increasing as the nose goes right 
  # IMUH:
- # Latitude: Measured in degrees
- # Longitude: Measured in degrees
- # Altitude: Measured in meters above sea level times 10.
+ # Latitude: Measured in decimal degrees times 10^7
+ # Longitude: Measured in decimal degrees times 10^7
+ # Altitude: Measured in meters above sea level times 10^1
  # Course over ground:
  # Speed over ground:
  # GPS Fix: A binary indicator of a valid gps fix
@@ -28,3 +27,6 @@ The variables in order are:
  # Time of week: Time of week is related to GPS time formats. If this is important to your system, I suggest you read external resources on this confusing topic.
 
 = Binary Output =
+
+=== Thanks ===
+Examples of output taken from a post by Scotty of DIYDrones.
