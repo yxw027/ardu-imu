@@ -1,0 +1,30 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+The ArduIMU outputs messages in different formats depending on its configuration. The two main options are either binary or Ascii. You can pick between these formats in the user configuration settings [Configuration see here].
+
+
+= Ascii Output =
+
+Typical Ascii output looks like this:
+
+{{{
+!!!VER:1.8.1,RLL:1.12,PCH:-0.07,YAW:34.03,IMUH:253,LAT:499247361,LON:-1193955623, ALT:3525,COG:0,SOG:0,FIX:1,SAT:9,TOW:21230400***
+}}} 
+
+The variables in order are:
+ # Roll: Measured in degrees
+ # Pitch: Measured in degrees
+ # Yaw: Measured in degrees
+ # IMUH:
+ # Latitude: Measured in degrees
+ # Longitude: Measured in degrees
+ # Altitude: Measured in meters above sea level times 10.
+ # Course over ground:
+ # Speed over ground:
+ # GPS Fix: A binary indicator of a valid gps fix
+ # Satellite Count: The number of satellites used to calculate this position
+ # Time of week: Time of week is related to GPS time formats. If this is important to your system, I suggest you read external resources on this confusing topic.
+
+= Binary Output =
