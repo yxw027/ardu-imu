@@ -4,7 +4,7 @@ ArduIMU+ comes with some basic test firmware loaded at the factory, but to get f
 
 *1)* First, download the latest code from the [http://code.google.com/p/ardu-imu/downloads/list repository].
 
-*2)* Then you need to [http://arduino.cc/en/Main/Software download Arduino] if you don't already have it and install it. ArduIMU requires Arduino 0019 or higher. The instructions for loading ArduIMU code are essentially the same as for !ArduPilot, so follow them [http://code.google.com/p/ardupilot/wiki/LoadingPage here] (especially the part about setting the "Set RTS on close" box and choosing the right board in the Arduino IDE) and then come back to this page.
+*2)* Then you need to download Arduino if you don't already have it and install it. ArduIMU only supports Arduino 023 or below. You can download it here: ([http://arduino.googlecode.com/files/arduino-0023.zip Windows], [http://arduino.googlecode.com/files/arduino-0023.dmg Mac], [http://arduino.googlecode.com/files/arduino-0023-64.tgz Linux]). The instructions for loading ArduIMU code are essentially the same as for !ArduPilot, so follow them [http://code.google.com/p/ardupilot/wiki/LoadingPage here] (especially the part about setting the "Set RTS on close" box and choosing the right board in the Arduino IDE) and then come back to this page.
 
 *3)* You must also define the folder Arduino will use for its "sketches" (Arduino-talk for the set of files that compose a program) and libraries
 
