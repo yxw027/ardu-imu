@@ -1,4 +1,4 @@
-http://ardupilot.googlecode.com/svn/images/dp66935_15d6kftdhm_b.jpg
+http://wiki.ardupilot-mega.googlecode.com/git/images/arduimu3.jpg
 
 *Introduction*
 
