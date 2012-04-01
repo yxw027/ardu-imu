@@ -2,7 +2,7 @@
 
   * [HomePage Home Page]
   * [IntroductionPage Introduction]
-  * [WhatNeed What you need to complete ArduIMU+]
+  * [WhatNeed What you need to complete ArduIMU V3]
   * [StartedPage Getting Started]
    * [Assembly Completing the hardware]
    * [Code Loading the code]
