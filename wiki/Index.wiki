@@ -1,8 +1,8 @@
 = ArduIMU =
 
   * [HomePage Home Page]
-  * [IntroductionPage Introduction]
   * [WhatNeed What you need to complete ArduIMU V3]
+  * [IntroductionPage Introduction]
   * [StartedPage Getting Started]
    * [Assembly Completing the hardware]
    * [Code Loading the code]
