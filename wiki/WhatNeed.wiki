@@ -1,5 +1,5 @@
 What you need to make a complete ArduIMU:
 
-  * [http://store.diydrones.com/product_p/kt-arduimu-20.htm ArduIMU kit] (contains: 1 main board and 1 6-pin right angle header)
+  * [https://store.diydrones.com/ArduIMU_V3_p/kt-arduimu-30.htm ArduIMU kit] (contains: 1 main board and 1 6-pin right angle header)
   * GPS module ([http://store.diydrones.com/MediaTek_MT3329_GPS_10Hz_Adapter_p/mt3329-02.htm MediaTek] or [http://store.diydrones.com/product_p/spk-gps-gs407.htm uBlox5] (order with adapter and configured for !ArduPilot) recommended), plus a [http://store.diydrones.com/EM_406_uBlox_Adaptor_Cable_15_cm_p/ca-0001-04.htm GPS cable].
   * [http://store.diydrones.com/product_p/ttl-232r-3v3.htm FTDI cable] for programming.
