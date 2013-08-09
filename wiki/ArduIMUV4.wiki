@@ -1,12 +1,11 @@
 
-
 = ArduIMU V4 =
 
 Like its predecessor, ArduIMU V4 is an Inertial Measure Unit plus an Arduino-compatible processor that can run on an Attitude Heading Reference System (AHRS) code based on Mahony’s DCM filter algorithm with Madgwick’s magnetic distortion compensation.  In addition to the 3-axis gyro sensors, accelerometers & magnetometers and GPS port, the hardware now includes a dynamic analog temperature sensor, ambient light sensor and pressure sensor. The microprocessor is an ATMEGA128RFA1 at 16 MHz that has 128KB of self-programmable flash and 4KB of EEPROM and the ability to transmit or receive data at 2.4 GHz ISM band.
 
 ArduIMU V4 features the latest MPU-9150 that includes a 3-axis gyroscopes, accelerometers and magnetometers and uses I²C for optimal implementation. 
 
- _Important Note: ArduIMU is not an Autopilot. It's just an orientation solution (the heart of an Autopilot) and can be used on anything where you want to know its orientation in respect to the ground--boats, cars, rockets or even your dog. To learn more about IMUs read [http://en.wikipedia.org/wiki/Inertial_measurement_unit here]._
+_Important Note: ArduIMU is not an Autopilot. It's just an orientation solution (the heart of an Autopilot) and can be used on anything where you want to know its orientation in respect to the ground--boats, cars, rockets or even your dog. To learn more about IMUs read [http://en.wikipedia.org/wiki/Inertial_measurement_unit here]._
 
 =Specifications:=
   * *APDS-9301 (Ambient Light Sensor)*
