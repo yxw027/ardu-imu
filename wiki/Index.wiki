@@ -13,4 +13,4 @@
   * [Theory Theory of Operation]
   * [LEDs LED Displays]
   * [Troubleshooting Troubleshooting guide]
-  * [ArduIMUV4]
+  * [ArduIMUV4 ArduIMU V4]
