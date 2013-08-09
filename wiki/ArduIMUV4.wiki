@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+
 
 = ArduIMU V4 =
 
@@ -49,4 +49,3 @@ ArduIMU V4 features the latest MPU-9150 that includes a 3-axis gyroscopes, accel
 
 
 _Note: ArduIMU V4 is in development and will be available very soon._
-
