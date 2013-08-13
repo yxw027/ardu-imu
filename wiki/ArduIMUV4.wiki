@@ -16,9 +16,11 @@ _Important Note: ArduIMU is not an Autopilot. It's just an orientation solution 
       * I²C interface
       * Wide range of fully calibrated pressure measurements: 300 to 1100 hPa
       * Low noise and low power consumption.
-  * *MCP9700 (Analog Temperature Sensor)*
-      * Wide range of temperature measurements:  -40°C to 125 °C (extended) or -40°C to +150°C (high).
-      * +/- 4 °C accuracy
+  * *HTU21D (Humidity & Temperature Sensor)*
+      * I²C interface and fast response time
+      * Fully calibrated 
+      * Wide range of temperature measurements from -40°C to 125 °C.
+      * Humidity accuracy of +/- 3% RH (Humidity Operating Range) tolerance @ 55%RH 
   * *MPU-9150 (9-axis MEMS device)*
       * I²C interface fast mode at 400 kHz
       * Tri-Axis angular rate sensor (gyroscope) with a sensitivity up to 131 LSBs/dps and a full-scale range of ±250, ±500, ±1000, and ±2000dps
