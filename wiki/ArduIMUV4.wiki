@@ -50,4 +50,4 @@ _Important Note: ArduIMU is not an Autopilot. It's just an orientation solution 
 
 _Note: ArduIMU V4 is in development and will be available very soon._
 
-[[File:ArduIMU_V4_1.jpg]]
+[[File:https://commons.wikimedia.org/wiki/File:ArduIMU_V4_1.jpg]]
