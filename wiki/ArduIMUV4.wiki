@@ -47,7 +47,8 @@ _Important Note: ArduIMU is not an Autopilot. It's just an orientation solution 
       * I²C port with 3.3V translation.
       * Analog pin, PWM pin & SPI port available.
       * GPS port with FTDI autoswitch.
-      * This device is versatile for more applications from rockets, simple movement detection and network communications.
+      * Soft power On/Off switch (button)
+      * This device is versatile for more applications from balance robots, simple movement detection and network communications.
 
 
 _Note: ArduIMU V4 is in development and will be available very soon._
